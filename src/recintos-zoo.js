@@ -1,4 +1,4 @@
-export class RecintosZoo {
+class RecintosZoo {
   constructor() {
     this.recintos = [
       {
@@ -135,3 +135,5 @@ export class RecintosZoo {
     return `Recinto ${recinto.numero} (espaço livre: ${espacoLivre} total: ${recinto.tamanho})`;
   }
 }
+
+
